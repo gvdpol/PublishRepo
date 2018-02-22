@@ -4,5 +4,18 @@
                       https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <!-- paste maven package feed credentials section here !-->
+    <server>
+  <id>nldx-visualstudio.com-maven</id>
+  <configuration>
+    <httpHeaders>
+      <property>
+        <name>Authorization</name>
+        <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+        <!-- The generated token expires on or before 5/23/2018 -->
+        <value>Basic Z2V2ZHBvbDpleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpTVXpJMU5pSXNJbmcxZENJNkltOVBkbU42TlUxZk4zQXRTR3BKUzJ4R1dIbzVNM1ZmVmpCYWJ5SjkuZXlKdVlXMWxhV1FpT2lKak9HSmlOR0V4TkMxbVlUUTFMVFE0TWpjdE9HWmxNaTFrWVRRM01EQXlOV0ZrWXpRaUxDSnpZM0FpT2lKMmMyOHVaSEp2Y0Y5M2NtbDBaU0IyYzI4dWNHRmphMkZuYVc1blgzZHlhWFJsSWl3aVlYVnBJam9pWldVMFpqVTJOall0TjJRM01pMDBZMlF4TFdJMFl6Z3RNRE5pWkdGaE5qUmxZamd3SWl3aWMybGtJam9pTUdGbU9XUXlNamt0TVRrMVlpMDBNakJsTFRnME9XVXRaREJtTkdZNU1XVmxPVGcySWl3aWFYTnpJam9pWVhCd0xuWnpjM0J6TG5acGMzVmhiSE4wZFdScGJ5NWpiMjBpTENKaGRXUWlPaUpoY0hBdWRuTnpjSE11ZG1semRXRnNjM1IxWkdsdkxtTnZiWHgyYzI4NllqUmtOREU0TkRFdE1tWXdaaTAwWVRRd0xXSmhOR1l0WTJSaU5EZzBPVFZqTmpjNElpd2libUptSWpveE5URTVNamt4T0RVMUxDSmxlSEFpT2pFMU1qY3dOamM0TlRWOS5zVmJoZmtncjNVQ3h1VGsyb2pUMl9KQlNHRWZucWdRSktlYWlzUVJzT2pfdkR1NVplN1pkbHNJNFpkSnN2NzVBQVh0cUR0eFlHemZ1VTV4amRVc1oyTmNqUW1iMmJBaEtMYUl0NFRNQ2V2bkx2M1BvT2xzZWJYbWpqWk5zX0lKUlVCOEF2T0ZGNEI5VklKdlJTU1VQX2ZNam1KV042M2pZSnlwN1lKbW1hMHphckIzcEk0WXlBTEJralJHTWNRLVZSbjMzQTlQckpzOW9rODRadDNXR3psZExRUGpVV0N3NTVVTDE0ZnJjNEdTU09JMVpOLW9aNHBNNjZOc1JOYThad2swWW5wS3UyVWNmZVFUSHZzVmNydFdmb09BSzE4aC0wdUhWYkpvS19SR1cwcXBMaWttRjhmWENIUGh6dGRXLUR4NkJ3SHdKN0w1Sy1MS1hlcXgtZ3c=</value>
+      </property>
+    </httpHeaders>
+  </configuration>
+</server>
   </servers>
 </settings>
