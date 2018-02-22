@@ -63,8 +63,8 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id><!-- id of feed from Connect to Feed dialog in VSTS !--></id>
-            <url><!-- url of feed from Connect to Feed dialog in VSTS !--></url>
+  <id>nldx-visualstudio.com-maven</id>
+  <url>https://nldx.pkgs.visualstudio.com/_packaging/Maven/maven/v1</url>
         </repository>
     </distributionManagement>
 </project>
